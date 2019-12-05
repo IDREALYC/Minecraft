@@ -1,0 +1,135 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: #000000;
+    overflow: hidden;
+    <body style="background-color:powderblue;">
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: transparent;
+    font-size: 18px;
+    font: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lawngreen;
+    color: lawngreen;
+    font: bold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: green;
+    color: white;
+    font: bold;
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: bold;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+    color: blue;
+    font: bold;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+        font: bold;
+    }
+
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        font: bold;
+    }
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    <body style="background-color:powderblue;">
+}
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+.topnav-centered{
+    position: center;
+    top: 0;
+    left: 0;
+    transform: none;
+    font: bold;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu>ul>li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    position relative;
+    top: 8px;
+    font-family: tahoma, serif;
+    font-size: 14px;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
